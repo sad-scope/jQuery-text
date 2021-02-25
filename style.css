@@ -1,0 +1,38 @@
+.select-container {
+width: 625px;
+}
+
+button{
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(156, 156, 156);
+    font-size: 1.2rem;
+    height: 2rem;
+}
+
+#background-button{
+    background: rgb(46, 130, 226);
+    color: white;
+}
+
+#red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+  }
+  #box {
+    width: 300px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 3px;
+  }
+  #red .ui-slider-range { background: #ef2929; }
+  #red .ui-slider-handle { border-color: #ef2929; }
+  #green .ui-slider-range { background: #8ae234; }
+  #green .ui-slider-handle { border-color: #8ae234; }
+  #blue .ui-slider-range { background: #729fcf; }
+  #blue .ui-slider-handle { border-color: #729fcf; }
